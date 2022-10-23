@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chatbox-react/static/css/main.1aa6fa99.css",
+    "main.js": "/chatbox-react/static/js/main.1333d4a7.js",
+    "static/js/787.1e691804.chunk.js": "/chatbox-react/static/js/787.1e691804.chunk.js",
+    "index.html": "/chatbox-react/index.html",
+    "main.1aa6fa99.css.map": "/chatbox-react/static/css/main.1aa6fa99.css.map",
+    "main.1333d4a7.js.map": "/chatbox-react/static/js/main.1333d4a7.js.map",
+    "787.1e691804.chunk.js.map": "/chatbox-react/static/js/787.1e691804.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aa6fa99.css",
+    "static/js/main.1333d4a7.js"
+  ]
+}
