@@ -1,0 +1,54 @@
+{
+  "chatbox": [
+    {
+      "id": "4_random",
+      "messValue": "An gi day",
+      "name": "Huy"
+    },
+    {
+      "id": "26_random",
+      "messValue": "An bun di",
+      "name": "Cuong"
+    },
+    {
+      "id": "37_random",
+      "messValue": "An hanh a",
+      "name": "Cuong"
+    },
+    {
+      "id": "8_random",
+      "messValue": "ok men",
+      "name": "Huy"
+    },
+    {
+      "id": "62_random",
+      "messValue": "vi qua ngu si",
+      "name": "Cuong"
+    },
+    {
+      "id": "47_random",
+      "messValue": "hhaha",
+      "name": "Cuong"
+    },
+    {
+      "id": "42_random",
+      "messValue": "hom nay an gi",
+      "name": "Cuong"
+    },
+    {
+      "id": "63_random",
+      "messValue": "khong biet",
+      "name": "Huy"
+    },
+    {
+      "id": "24_random",
+      "messValue": "An gi thian",
+      "name": "Cuong"
+    },
+    {
+      "id": "68_random",
+      "messValue": "duoc",
+      "name": "Cuong"
+    }
+  ]
+}

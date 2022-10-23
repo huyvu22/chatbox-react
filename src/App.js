@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from './Components/Login';
+import Chat from './Components/Chat';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+
+export class App extends Component {
+
+  state = {
+    name: '',
+    showChat: false
+  }
+
+  handleAddUsername = (username) => {
+    this.setState({
+      showChat: true,
+      name: username,
+    })
+  }
+
+  render() {
+    const { showChat, name } = this.state
+    return (
+      <div className='App'>
+        {!showChat
+          ?
+          <Login handleAddUsername={this.handleAddUsername} name={name} />
+          :
+          <Chat name={name} />
+        }
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
